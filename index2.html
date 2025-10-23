@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DC Civils | Groundworks & Civil Engineering</title>
+  <meta name="description" content="DC Civils Ltd – Groundworks, Drainage, and Civil Engineering Services across Yorkshire." />
+  <style>
+    :root {
+      --primary: #1a1a1a;
+      --accent: #cc9933;
+      --light-bg: #f5f5f5;
+      --text: #333;
+      --max-width: 1000px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; color: var(--text); background: var(--light-bg); line-height: 1.6; }
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.1rem; color: #ddd; }
+
+    nav {
+      background: #222;
+      text-align: center;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      font-size: 0.95rem;
+    }
+    nav a:hover { color: var(--accent); }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: var(--max-width);
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: var(--primary);
+      font-size: 1.8rem;
+    }
+    .services, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card h3 {
+      margin-bottom: 0.5rem;
+      color: var(--accent);
+    }
+    footer {
+      background: var(--primary);
+      color: #ccc;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+    a.btn {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.btn:hover { background: #b88a2b; }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      section { padding: 2rem 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DC Civils Ltd</h1>
+    <p>Groundworks • Drainage • Civil Engineering</p>
+    <a href="#contact" class="btn">Get a Quote</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>DC Civils Ltd is a Yorkshire-based civil engineering and groundworks company delivering reliable, high-quality solutions for private and public sector clients. Our team combines hands-on experience with a commitment to safety, quality, and efficiency on every project.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Groundworks</h3>
+        <p>Full site preparation, foundations, and concrete works for commercial and residential developments.</p>
+      </div>
+      <div class="card">
+        <h3>Drainage</h3>
+        <p>Installation and maintenance of foul and surface water systems, including sustainable drainage solutions (SuDS).</p>
+      </div>
+      <div class="card">
+        <h3>Civil Engineering</h3>
+        <p>Infrastructure works, road construction, and utilities installation delivered to the highest industry standards.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Recent Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Residential Development</h3>
+        <p>Full groundworks package for a new housing estate, including foundations, drainage, and road construction.</p>
+      </div>
+      <div class="card">
+        <h3>Commercial Unit Access Roads</h3>
+        <p>Construction of reinforced concrete roads and drainage for an industrial site in West Yorkshire.</p>
+      </div>
+      <div class="card">
+        <h3>Water Infrastructure Upgrade</h3>
+        <p>Trenching and reinstatement for water treatment works improvements in partnership with regional contractors.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p style="text-align:center;">Ready to discuss your project or request a quote?</p>
+    <p style="text-align:center;margin-top:0.5rem;">
+      <strong>Email:</strong> <a href="mailto:info@dc-civils.co.uk">info@dc-civils.co.uk</a><br>
+      <strong>Phone:</strong> 07xxx xxxxxx<br>
+      <strong>Address:</strong> Yorkshire, United Kingdom
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DC Civils Ltd. All rights reserved.</p>
+  </footer>
+</body>
+</html>
